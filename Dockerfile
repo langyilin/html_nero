@@ -7,3 +7,6 @@ ADD html /var/www/html
 ADD nginx/my.cnf /etc/nginx/conf.d/
 
 EXPOSE 80
+
+
+CMD ["service nginx start"]
