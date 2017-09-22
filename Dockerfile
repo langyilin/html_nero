@@ -1,4 +1,4 @@
-FROM Ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER Chris Chan "416739124@qq.com"
 
 RUN apt-get -y update && apt-get install -y nginx
